@@ -10,3 +10,7 @@ for i in range(len(warzywniak)):
 for produkt in lista_zakupow:      
     print(f"Idę do {produkt.capitalize()} i kupuję tam {lista_zakupow.get(produkt)}")
 print()
+count = 0
+for produkt in lista_zakupow:
+    count += len(lista_zakupow[produkt]) 
+print(f"W sumie kupuję {count} produktów.")
