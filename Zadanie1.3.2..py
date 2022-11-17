@@ -7,3 +7,6 @@ for i in range(len(piekarnia)):
     piekarnia[i] = piekarnia[i].title()
 for i in range(len(warzywniak)):
     warzywniak[i] = warzywniak[i].title() 
+for produkt in lista_zakupow:      
+    print(f"Idę do {produkt.capitalize()} i kupuję tam {lista_zakupow.get(produkt)}")
+print()
